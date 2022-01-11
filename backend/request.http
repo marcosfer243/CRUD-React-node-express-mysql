@@ -1,0 +1,16 @@
+###
+
+GET http://localhost:8411/api HTTP/1.1
+
+###
+
+POST http://localhost:8411/api  HTTP/1.1
+
+
+Content-Type: application/json;
+
+{
+    "titulo":"Cancion de hielo y fuego: Juego de Tronos",
+    "autor":"George R.R Martin",
+    "edicion": 4
+}
